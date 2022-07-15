@@ -1,0 +1,63 @@
+@import '_variables.scss';
+
+// SHOP BY BRANDS STYLING STARTS
+
+.brands-wrapper {
+    padding: 52px 0 68px;
+    h2 {
+        margin-bottom: 33px;
+    }
+    ul.products {
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: 992px) {
+          margin: 0 -12px !important;
+        }
+        li.product-category {
+            width: 20%;
+            background: #fff;
+            box-shadow: unset;
+            @media (max-width: 992px) {
+              width: 25%;
+              padding: 12px !important;
+            }
+            @media (max-width: 768px) {
+              width: 33.33%;
+            }
+            @media (max-width: 575px) {
+              width: 50%;
+            }
+            @media (max-width: 375px) {
+              width: 100%;
+            }
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 4px #0000001A;
+                height: 198px;
+                text-align: center;
+                position: relative;
+                img {
+                    max-width: 124px;
+                }
+                h5 {
+                  position: absolute;
+                  left: 50%;
+                  bottom: 6px;
+                  transform: translateX(-50%);
+                  margin: 0;
+                  font-size: $font-size-small;
+                  color: $primary;
+                  font-family: $font-family-base;
+                  font-weight: $font-weight-base;
+                  text-transform: capitalize;
+                  text-decoration: underline;
+                }
+            }
+        }
+    }
+  }
+  
+  // SHOP BY BRANDS STYLING ENDS

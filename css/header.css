@@ -1,0 +1,130 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.header .top-bar {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  color: #777777;
+  padding: 13px 0px 0px; }
+  .header .top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .header .top-bar .container .left {
+      margin-bottom: 13px; }
+      .header .top-bar .container .left p {
+        color: #777777;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0; }
+    .header .top-bar .container .right {
+      margin-bottom: 13px;
+      display: flex;
+      align-items: center; }
+      .header .top-bar .container .right span {
+        padding-left: 25px;
+        font-weight: 300;
+        font-size: 14px; }
+        .header .top-bar .container .right span:first-child {
+          padding-left: 0px; }
+
+.header .navbar {
+  padding: 24px 0px 0px; }
+  @media (min-width: 1024px) {
+    .header .navbar .mobile-nav-toggle {
+      display: none; } }
+  .header .navbar .search-box {
+    display: none;
+    max-width: 350px;
+    width: 100%; }
+    @media (min-width: 1024px) {
+      .header .navbar .search-box {
+        display: block; } }
+    .header .navbar .search-box .has-search {
+      position: relative;
+      background: #F2F2F2;
+      border-radius: 2px; }
+      .header .navbar .search-box .has-search input[type='search'] {
+        width: 100%;
+        padding: 0 30px 0 12px;
+        line-height: 42px;
+        background: #F2F2F2;
+        border: 0;
+        font-family: "Nunito Sans", sans-serif; }
+        .header .navbar .search-box .has-search input[type='search']::placeholder {
+          color: #777777;
+          font-size: 14px;
+          font-family: "Nunito Sans", sans-serif; }
+        .header .navbar .search-box .has-search input[type='search']:focus {
+          outline: none; }
+      .header .navbar .search-box .has-search button[type='submit'] {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: unset;
+        border: 0;
+        padding: 0;
+        background-image: url("../assets/images/search-solid.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+        font-size: 0;
+        height: 16px;
+        width: 16px;
+        cursor: pointer; }
+  .header .navbar .contact-box {
+    display: none;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: .8px; }
+    @media (min-width: 1024px) {
+      .header .navbar .contact-box {
+        display: flex; } }
+    .header .navbar .contact-box img {
+      width: 27px;
+      margin-right: .6rem; }
+    .header .navbar .contact-box .contact-info a {
+      color: #393939;
+      font-weight: bold; }
+      .header .navbar .contact-box .contact-info a:hover {
+        opacity: .75; }
+  .header .navbar .card-options {
+    display: none; }
+    @media (min-width: 1024px) {
+      .header .navbar .card-options {
+        display: flex;
+        align-items: center; } }
+    .header .navbar .card-options a {
+      margin-left: 1rem; }
+      .header .navbar .card-options a:hover {
+        opacity: .75; }
+      @media (min-width: 1199px) {
+        .header .navbar .card-options a {
+          margin-left: 2rem; } }
+      .header .navbar .card-options a img {
+        max-width: 22px; }
+        @media (min-width: 1024px) {
+          .header .navbar .card-options a img {
+            min-width: 27px;
+            min-width: auto; } }
+    .header .navbar .card-options .cart-image {
+      position: relative; }
+      .header .navbar .card-options .cart-image .cart-number {
+        right: -7px;
+        background-color: #B40000;
+        width: 13px;
+        height: 13px;
+        border-radius: 100px;
+        position: absolute;
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        top: -6px; }

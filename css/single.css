@@ -1,0 +1,44 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.single-post-wrapper .single-post-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  margin-bottom: 20px; }
+
+.single-post-wrapper .single-post-content .spc-img {
+  margin-bottom: 30px; }
+  .single-post-wrapper .single-post-content .spc-img img {
+    width: 100%; }
+
+.single-post-wrapper .recent-posts {
+  background: #F2F2F2;
+  padding: 29px 32px; }
+  @media (max-width: 991px) {
+    .single-post-wrapper .recent-posts {
+      margin-bottom: 30px; } }
+  .single-post-wrapper .recent-posts h3 {
+    display: inline-block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #B40000;
+    text-transform: lowercase;
+    margin-bottom: 30px; }
+    .single-post-wrapper .recent-posts h3::first-letter {
+      text-transform: uppercase; }
+  .single-post-wrapper .recent-posts p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    margin-bottom: 32px;
+    letter-spacing: 0.8px; }
+    .single-post-wrapper .recent-posts p:last-child {
+      margin-bottom: 0; }

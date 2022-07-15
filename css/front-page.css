@@ -1,0 +1,175 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.deals-section {
+  background-color: #f2f2f2;
+  padding-top: 3.2rem;
+  padding-bottom: 2.2rem; }
+  .deals-section .deal-top .section-top-left h2 {
+    line-height: 43px;
+    margin-bottom: 15px; }
+    @media (max-width: 640px) {
+      .deals-section .deal-top .section-top-left h2 {
+        margin-bottom: 20px; } }
+  .deals-section .deal-top .section-top-left h3 {
+    font-family: "Nunito Sans", sans-serif; }
+  .deals-section .deal-top .section-top-right {
+    margin-bottom: 1.3rem; }
+
+.top-selling-section .products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px  !important; }
+  .top-selling-section .products .product {
+    flex: 1;
+    flex: 0 0 100%;
+    padding: 0px 15px !important;
+    background: transparent;
+    box-shadow: none !important;
+    margin: 0px 0px 30px !important; }
+    @media (min-width: 768px) {
+      .top-selling-section .products .product {
+        flex: 0 0 50%;
+        width: 50%  !important; } }
+    @media (min-width: 1024px) {
+      .top-selling-section .products .product {
+        flex: 0 0 33.333%;
+        width: 33.333% !important; } }
+    .top-selling-section .products .product .product-wrapper {
+      background-color: #fff;
+      box-shadow: 0px 0px 4px #0000001a !important;
+      height: 100%; }
+
+.vacuum-specialists-section {
+  background-color: rgba(119, 119, 119, 0.2);
+  position: relative; }
+  .vacuum-specialists-section .vacuum-left {
+    padding: 3.2rem 15px 4rem; }
+    .vacuum-specialists-section .vacuum-left h2 {
+      padding-bottom: 40px;
+      line-height: 40px;
+      max-width: 300px; }
+      .vacuum-specialists-section .vacuum-left h2::after {
+        position: relative;
+        content: "";
+        height: 4px;
+        background: #B40000;
+        height: 2px;
+        bottom: 0px;
+        left: 0px;
+        display: block;
+        z-index: 999;
+        width: 130px;
+        bottom: -20px; }
+    .vacuum-specialists-section .vacuum-left h3 {
+      position: relative;
+      margin-top: 50px;
+      font-family: "Nunito Sans", sans-serif;
+      max-width: 300px; }
+      .vacuum-specialists-section .vacuum-left h3 span {
+        display: flex;
+        font-size: 80px;
+        font-family: "Oswald", sans-serif; }
+        .vacuum-specialists-section .vacuum-left h3 span:first-child {
+          line-height: 5px; }
+        .vacuum-specialists-section .vacuum-left h3 span:last-child {
+          transform: rotate(181deg);
+          align-items: flex-end;
+          justify-content: flex-end;
+          line-height: 9px; }
+  .vacuum-specialists-section .vacuum-right {
+    background-color: #fff;
+    padding: 3.3rem 15px 2.5rem 3.5rem;
+    position: relative;
+    z-index: 5; }
+    @media (max-width: 640px) {
+      .vacuum-specialists-section .vacuum-right {
+        padding-left: 15px; } }
+    .vacuum-specialists-section .vacuum-right p {
+      margin-bottom: 1.5rem; }
+      .vacuum-specialists-section .vacuum-right p .btn {
+        margin-top: .7rem  !important; }
+  @media (min-width: 768px) {
+    .vacuum-specialists-section:after {
+      display: block;
+      position: absolute;
+      content: "";
+      background: #fff;
+      right: 0px;
+      height: 100%;
+      top: 0px;
+      width: 30%;
+      z-index: 4; } }
+
+.featured-section {
+  padding: 49px 15px 20px;
+  background-color: #f2f2f2; }
+  .featured-section .section-featured-right .btn {
+    min-width: 267px; }
+
+.contactShiping-section {
+  padding: 91px 15px;
+  position: relative; }
+  .contactShiping-section .contact-shipping-left {
+    margin-bottom: 50px; }
+    @media (min-width: 768px) {
+      .contactShiping-section .contact-shipping-left {
+        margin-bottom: 0; } }
+    .contactShiping-section .contact-shipping-left .black-box {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      height: 122px;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      padding-left: 5rem;
+      background-image: url("../assets/images/checkmark.svg");
+      background-repeat: no-repeat;
+      background-position: center left 12px; }
+      @media (min-width: 640px) {
+        .contactShiping-section .contact-shipping-left .black-box {
+          background-position: center left 30px;
+          padding-left: 6.5rem; } }
+      @media (min-width: 1024px) {
+        .contactShiping-section .contact-shipping-left .black-box {
+          padding-left: 116px; } }
+      .contactShiping-section .contact-shipping-left .black-box:last-child {
+        margin-bottom: 0px; }
+      .contactShiping-section .contact-shipping-left .black-box h2 {
+        color: #fff;
+        margin: 0; }
+      .contactShiping-section .contact-shipping-left .black-box h3 {
+        color: #fff;
+        margin: 0;
+        font-family: "Nunito Sans", sans-serif; }
+  .contactShiping-section .contact-shipping-right p {
+    margin-bottom: 1.4rem; }
+    @media (min-width: 768px) {
+      .contactShiping-section .contact-shipping-right p {
+        padding-left: 50px; } }
+    .contactShiping-section .contact-shipping-right p:last-child {
+      text-align: right; }
+  .contactShiping-section::after {
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    z-index: -1;
+    background: #B40000;
+    top: 65px;
+    max-width: 100%;
+    max-height: 450px; }
+    @media (min-width: 768px) {
+      .contactShiping-section::after {
+        max-width: 320px; } }
+    @media (min-width: 1024px) {
+      .contactShiping-section::after {
+        max-width: 490px; } }
+    @media (min-width: 1200px) {
+      .contactShiping-section::after {
+        max-width: 537px; } }

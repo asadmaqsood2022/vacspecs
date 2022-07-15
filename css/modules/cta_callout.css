@@ -1,0 +1,19 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+#cta-callout {
+  background: #393939; }
+  #cta-callout p {
+    color: white;
+    font-size: 22px; }
+  #cta-callout .btn {
+    margin: 0;
+    background: white;
+    color: gray; }
+    #cta-callout .btn:hover {
+      background: #123D96;
+      color: white; }

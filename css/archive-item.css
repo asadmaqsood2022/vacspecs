@@ -1,0 +1,57 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.brands-wrapper {
+  padding: 52px 0 68px; }
+  .brands-wrapper h2 {
+    margin-bottom: 33px; }
+  .brands-wrapper ul.products {
+    display: flex;
+    flex-wrap: wrap; }
+    @media (max-width: 992px) {
+      .brands-wrapper ul.products {
+        margin: 0 -12px !important; } }
+    .brands-wrapper ul.products li.product-category {
+      width: 20%;
+      background: #fff;
+      box-shadow: unset; }
+      @media (max-width: 992px) {
+        .brands-wrapper ul.products li.product-category {
+          width: 25%;
+          padding: 12px !important; } }
+      @media (max-width: 768px) {
+        .brands-wrapper ul.products li.product-category {
+          width: 33.33%; } }
+      @media (max-width: 575px) {
+        .brands-wrapper ul.products li.product-category {
+          width: 50%; } }
+      @media (max-width: 375px) {
+        .brands-wrapper ul.products li.product-category {
+          width: 100%; } }
+      .brands-wrapper ul.products li.product-category a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 4px #0000001A;
+        height: 198px;
+        text-align: center;
+        position: relative; }
+        .brands-wrapper ul.products li.product-category a img {
+          max-width: 124px; }
+        .brands-wrapper ul.products li.product-category a h5 {
+          position: absolute;
+          left: 50%;
+          bottom: 6px;
+          transform: translateX(-50%);
+          margin: 0;
+          font-size: 14px;
+          color: #393939;
+          font-family: "Nunito Sans", sans-serif;
+          font-weight: 400;
+          text-transform: capitalize;
+          text-decoration: underline; }

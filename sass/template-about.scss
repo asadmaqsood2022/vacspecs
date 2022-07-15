@@ -1,0 +1,119 @@
+@import '_variables.scss';
+
+// ABOUT US STYLING STARTS
+  
+  .section-content {
+    background: $gray;
+    padding-bottom: 65px;
+    @media ( max-width: 991px ) {
+      padding-bottom: 40px;
+    }
+    h3 {
+      display: inline-block;
+      padding-bottom: 16px;
+      border-bottom: 2px solid $red;
+      @media ( max-width: 767px ) {
+        margin-bottom: 30px;
+      }
+    }
+    p {
+      font-size: $font-size-base;
+      line-height: $line-height-normal;
+      font-weight: $font-weight-base;
+      font-family: $font-family-base;
+      color: black;
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin-bottom: 30px;
+      li {
+        font-size: $font-size-base;
+        line-height: $line-height-normal;
+        font-weight: $font-weight-base;
+        font-family: $font-family-base;
+        color: black;
+        margin-bottom: 10px;
+      }
+    }
+    .sec-contnt-img {
+      float: right;
+      @media (max-width: 991px) {
+        float: unset;
+        margin-bottom: 30px;
+      }
+    }
+    .sec-content-banner {
+      position: relative;
+      picture {
+        width: 100% !important;
+        max-width: 100% !important;
+        max-height: unset !important;
+      }
+      img {
+        width: 100%;
+      }
+      h2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 45%;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        padding: 22px 33px;
+        text-align: left;
+        @media (max-width: 991px) {
+          padding: 20px;
+          font-size: 22px;
+        }
+        @media (max-width: 767px) {
+          padding: 15px;
+          font-size: 20px;
+        }
+      }
+    }
+    .sec-cntnt-lists {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+     
+      ul {
+        width: 25%;
+        list-style: none;
+        padding-left: 0;
+        @media (max-width: 991px) {
+          width: 50%;
+        }
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+        li {
+          font-size: $font-size-base;
+          line-height: $line-height-normal;
+          font-weight: $font-weight-base;
+          font-family: $font-family-base;
+          color: black;
+          margin-bottom: 22px;
+          text-transform: capitalize;
+          @media (max-width: 767px) {
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+  
+  .section-content.section-content-first {
+    padding-top: 65px;
+    @media ( max-width: 991px ) {
+      padding-top: 40px;
+    }
+  }
+  
+  .about-us-content.quality-services {
+    padding: 30px 0 35px;
+  }
+  
+  // ABOUT US STYLING ENDS

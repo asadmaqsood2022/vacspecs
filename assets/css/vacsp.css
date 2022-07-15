@@ -1,0 +1,142 @@
+/*!
+ * Main style of Compare products  	 
+ *
+ */
+.vacsp-default-btn-wrapper {
+  display: inline-block;
+}
+
+.vacsp-default-btn-wrapper .vacsp-icon {
+  margin-left: 10px;
+}
+
+.vacsp-default-btn-wrapper .vacsp-default-btn {
+  margin-bottom: 20px;
+}
+
+.vacsp-remove-btn {
+  font-size: 25px;
+}
+
+.vacsp-remove-btn .vacsp-btn-text {
+  display: none;
+}
+
+.vacsp-list {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.vacsp-list table {
+  margin-bottom: 0 !important;
+  width: 100%;
+}
+
+.vacsp-list .product-thumbnail img {
+  max-width: 70px;
+  margin: 0 auto 5px auto;
+}
+
+.vacsp-list .added_to_cart {
+  display: none;
+}
+
+.vacsp-list td, .vacsp-list tr {
+  vertical-align: middle !important;
+  text-align: center !important;
+  line-height: 18px;
+  padding: 12px;
+}
+
+.vacsp-list td:last-child, .vacsp-list tr:last-child {
+  padding: 12px;
+}
+
+.vacsp-list p {
+  margin: 0;
+}
+
+.vacsp-list th {
+  text-align: center;
+  text-transform: uppercase;
+  background: #F7F7F7;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.vacsp-list tr:nth-child(even) td {
+  background: #F7F7F7;
+}
+
+.vacsp-list tr:nth-child(odd) td {
+  background: #ffffff;
+}
+
+.vacsp-list .product-name {
+  line-height: 18px;
+}
+
+.vacsp-list .add-to-cart-btn a {
+  line-height: 18px;
+}
+
+.vacsp-list .product-price del, .vacsp-list .product-price ins {
+  display: block;
+}
+
+.vacsp-list .product-price ins > span {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .vacsp-list.responsive-style-1 .product-thumbnail {
+    display: inline-block;
+  }
+  .vacsp-list.responsive-style-1 .product-thumbnail img {
+    text-align: right;
+    margin: 0;
+  }
+  .vacsp-list.responsive-style-1 .the-product {
+    text-align: right;
+  }
+  .vacsp-list.responsive-style-1 thead {
+    display: none;
+  }
+  .vacsp-list.responsive-style-1 tbody tr:first-child td:first-child {
+    border-top: 0;
+  }
+  .vacsp-list.responsive-style-1 tbody th {
+    display: none;
+  }
+  .vacsp-list.responsive-style-1 tr {
+    display: block;
+  }
+  .vacsp-list.responsive-style-1 tr td {
+    display: block;
+    text-align: right !important;
+  }
+  .vacsp-list.responsive-style-1 tr td.order-actions {
+    text-align: left !important;
+  }
+  .vacsp-list.responsive-style-1 tr td:before {
+    content: attr(data-title) ": ";
+    font-weight: 700;
+    float: left;
+  }
+  .vacsp-list.responsive-style-1 tr td.product-remove:before, .vacsp-list.responsive-style-1 tr td.actions:before {
+    display: none;
+  }
+  .vacsp-list.responsive-style-1 tr:nth-child(2n) td {
+    background-color: rgba(0, 0, 0, 0.025);
+  }
+}
+
+.iziModal .iziModal-header-subtitle, .iziModal .iziModal-header-title {
+  clear: none;
+}
+
+.iziModal {
+  outline: none;
+}
+
+/*# sourceMappingURL=../maps/alg-wc-cp.css.map */

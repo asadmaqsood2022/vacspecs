@@ -1,0 +1,147 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+#slider {
+  min-height: 406px;
+  padding-bottom: 30px; }
+
+@media (min-width: 1024px) {
+  .banner-slider {
+    margin-top: 0; } }
+
+.banner-slider .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%); }
+  .banner-slider .owl-nav i {
+    color: #777777;
+    font-size: 1.5rem; }
+  .banner-slider .owl-nav button {
+    font-size: 36px  !important;
+    position: relative;
+    margin: 0px  !important;
+    color: #777777 im !important; }
+    .banner-slider .owl-nav button:hover {
+      background-color: transparent !important;
+      color: black !important; }
+  .banner-slider .owl-nav .owl-prev {
+    left: -33px; }
+  .banner-slider .owl-nav .owl-next {
+    right: -33px;
+    left: inherit; }
+
+.banner-slider .owl-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 5px; }
+
+.banner-slider .slider-info {
+  position: absolute;
+  left: 0px;
+  z-index: 33;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  padding: 0 40px;
+  background: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+  @media (max-width: 768px) {
+    .banner-slider .slider-info {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.5); } }
+  @media (max-width: 425px) {
+    .banner-slider .slider-info {
+      padding: 0 15px; } }
+  .banner-slider .slider-info .slider-inner-content {
+    max-width: 440px; }
+    .banner-slider .slider-info .slider-inner-content h1 {
+      font-family: "Nunito Sans", sans-serif;
+      font-weight: 300;
+      padding-bottom: 12px; }
+      .banner-slider .slider-info .slider-inner-content h1::after {
+        position: relative;
+        content: "";
+        background: #B40000;
+        height: 2px;
+        left: 0px;
+        display: block;
+        z-index: 999;
+        width: 130px;
+        bottom: -7px; }
+    .banner-slider .slider-info .slider-inner-content h3 {
+      letter-spacing: 1.2px; }
+    .banner-slider .slider-info .slider-inner-content p {
+      margin-bottom: 1.6rem; }
+    .banner-slider .slider-info .slider-inner-content .default-btn {
+      max-width: 158px; }
+      .banner-slider .slider-info .slider-inner-content .default-btn:hover {
+        color: #fff !important; }
+
+.banner-slider picture {
+  max-height: 395px; }
+  .banner-slider picture img {
+    min-height: 395px;
+    object-fit: cover; }
+
+.brands-section {
+  margin-bottom: 1.5rem; }
+  .brands-section .brand-top a {
+    min-width: 214px; }
+  .brands-section .brand-wrapper {
+    position: relative;
+    margin-bottom: 1.875rem; }
+    .brands-section .brand-wrapper .brand-backImage {
+      position: relative; }
+      .brands-section .brand-wrapper .brand-backImage::after {
+        content: "";
+        position: absolute;
+        background: #000;
+        opacity: .5;
+        z-index: 1;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%; }
+      .brands-section .brand-wrapper .brand-backImage picture {
+        max-width: 100%  !important;
+        overflow: hidden; }
+        .brands-section .brand-wrapper .brand-backImage picture img {
+          width: 100%;
+          object-fit: cover; }
+    .brands-section .brand-wrapper .front-brand-image {
+      position: absolute;
+      top: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2; }
+    .brands-section .brand-wrapper .brand-info {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: 3; }
+      .brands-section .brand-wrapper .brand-info .btn {
+        margin: 0px; }
+
+.section-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.4rem; }
+  .section-top h2 {
+    margin: 10px 0px; }
+    @media (min-width: 768px) {
+      .section-top h2 {
+        margin: 0px; } }

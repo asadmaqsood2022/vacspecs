@@ -1,0 +1,98 @@
+
+// Font family
+$font-family-base:'Nunito Sans', sans-serif;
+$font-family-google-os: 'Oswald', sans-serif;
+$font-family-google-open-sans: 'Open Sans', sans-serif;
+
+// Fonts size
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$primary-font: 19px;
+$secondary-font: 24px;
+$heading-font: 36px;
+$link-font: 26px;
+$font-size-small: 14px;
+
+
+// line height
+$line-height-base: 1.25;
+$line-height-normal: 1.5;
+
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-base: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+
+/* Colours */
+$primary: #393939;
+$secondary: #123D96;
+$blueCard:#0071E3;
+$bluelink: #2885BE;
+$red: #B40000;
+$light-red:#FF0808;
+$black: #000;
+$dark-gray:#393939;
+$white: #fff;
+$med-gray:#777777;
+$gray: #f2f2f2;
+$light-green:#96CA43;
+$green: #4DAE65;
+
+
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+$h1-min: 28;  $h1-max: 36;
+$h2-min: 28;  $h2-max: 36;
+$h3-min: 20;  $h3-max: 24;
+$h4-min: 19;  $h4-max: 22;
+$h5-min: 18;  $h5-max: 21;
+$h6-min: 17;  $h6-max: 20;
+$p-min:16;  $p-max:16;
+
+
+
+/* Some device sizes */
+$xs: 0;
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+
+/* adjusted breakpoints for above */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 641px,
+  md: 769px,
+  lg: 1025px,
+  xl: 1201px
+);
+
+/* 100% widths look better than "Snapping" IMO */
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1140px
+);
+
+
+/* Utility */
+$radius: 5px;
+
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+$spacer: 1em;  //Assumes browser default of 16px;
+$spacers: (
+0: 0,
+1: ($spacer * 1),
+2: ($spacer * 2),
+3: ($spacer * 3),
+4: ($spacer * 4),
+5: ($spacer * 5),
+6: ($spacer * 6),
+7: ($spacer * 7),
+);
+
+
+

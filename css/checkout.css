@@ -1,0 +1,44 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.woocommerce-checkout .mini-cart, .woocommerce-checkout .comment-respond {
+  display: none; }
+
+.checkout-section-wrap {
+  padding-bottom: 65px; }
+  .checkout-section-wrap .checkout-form-info {
+    background: #F2F2F2;
+    padding: 22px 32px 32px; }
+    .checkout-section-wrap .checkout-form-info .woocommerce-billing-fields h3 {
+      text-transform: capitalize;
+      margin-bottom: 28px; }
+    .checkout-section-wrap .checkout-form-info .woocommerce-billing-fields .form-row {
+      padding: 0;
+      margin-bottom: 32px; }
+      .checkout-section-wrap .checkout-form-info .woocommerce-billing-fields .form-row label {
+        font-size: 1rem;
+        line-height: 1.25;
+        font-weight: 400;
+        font-family: "Nunito Sans", sans-serif;
+        color: #393939;
+        margin-bottom: 8px; }
+      .checkout-section-wrap .checkout-form-info .woocommerce-billing-fields .form-row input {
+        background: white;
+        border: 1px solid #E0E0E0;
+        font-size: 1rem;
+        line-height: 38px;
+        font-weight: 400;
+        font-family: "Nunito Sans", sans-serif;
+        color: #393939;
+        padding: 0 15px; }
+  .checkout-section-wrap .order-sec {
+    padding-top: 22px; }
+    .checkout-section-wrap .order-sec h3 {
+      text-transform: capitalize;
+      margin-bottom: 28px; }
+    .checkout-section-wrap .order-sec .shop_table thead {
+      background: #F2F2F2; }

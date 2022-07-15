@@ -1,0 +1,16 @@
+/* Colours */
+/* Fluid heading sizes - set your min/max sizes and you're done! */
+/* Some device sizes */
+/* adjusted breakpoints for above */
+/* 100% widths look better than "Snapping" IMO */
+/* Utility */
+/* Additional Spacers -- don't think you'll need more than 7, but if you do -- maybe just use a custom class  :)  */
+.whistlist-products {
+  padding: 50px 0; }
+  .whistlist-products ul.products {
+    padding: 0;
+    list-style: none; }
+  .whistlist-products .product-detail-options {
+    display: none; }
+  .whistlist-products .products .product .product-wrapper .options-product a.rmv-wl {
+    display: flex; }

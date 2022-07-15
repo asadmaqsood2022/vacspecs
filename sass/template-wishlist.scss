@@ -1,0 +1,23 @@
+@import '_variables.scss';
+
+.whistlist-products {
+    padding: 50px 0;
+    ul.products {
+        padding: 0;
+        list-style: none;
+    }
+    .product-detail-options {
+    	display: none;
+    }
+    .products {
+	    .product {
+    		.product-wrapper {
+	    		.options-product {
+	    			a.rmv-wl {
+	    				display: flex;
+	    			}
+	    		}
+	    	}
+    	}
+    }
+}

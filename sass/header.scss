@@ -1,0 +1,169 @@
+@import '_variables.scss';
+
+
+.header {
+    .top-bar{
+        background: $gray;
+        display: flex;
+        align-items: center;
+        color: $med-gray;
+        padding: 13px 0px 0px;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .left{
+                margin-bottom: 13px;
+                p{
+                    color: $med-gray;
+                    font-size: 14px;
+                    font-weight: $font-weight-light;
+                    margin: 0;
+                }
+            }
+            .right{
+                margin-bottom: 13px;
+                display: flex;
+                align-items: center;
+                
+                span{
+                    padding-left: 25px;
+                    font-weight: $font-weight-light;
+                    font-size: 14px;
+                    &:first-child{
+                        padding-left: 0px;
+                    }
+
+                }
+            }
+        }    
+    }
+    .navbar {
+        
+            padding: 24px 0px 0px;
+        
+        .mobile-nav-toggle{
+            @media(min-width: $lg){
+                display: none;
+            }
+        }
+
+    
+    .search-box{
+        @media(min-width: $lg){
+            display: block;
+        }
+        display: none;
+        max-width: 350px;
+        width: 100%;
+        .has-search{
+            position: relative;
+            background: #F2F2F2;
+            border-radius: 2px;
+            input[type='search']{
+                width: 100%;
+                padding: 0 30px 0 12px;
+                line-height: 42px;
+                background: #F2F2F2;
+                border: 0;
+                font-family: $font-family-base;
+                &::placeholder{
+                    color: $med-gray;
+                    font-size: 14px;
+                    font-family: $font-family-base;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            button[type='submit'] {
+                position: absolute;
+                right: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: unset;
+                border: 0;
+                padding: 0;
+                background-image: url("../assets/images/search-solid.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 16px;
+                font-size: 0;
+                height: 16px;
+                width: 16px;
+                cursor: pointer;
+            }
+        }    
+    }
+    .contact-box{
+        @media(min-width:$lg){
+            display: flex;
+        }
+        display: none;
+        align-items: center;
+        font-family: $font-family-google-os;
+        letter-spacing: .8px;
+        img{
+            width: 27px;
+            margin-right: .6rem;
+
+        }
+        .contact-info {
+            
+            a{
+                color:$dark-gray;
+                font-weight: bold;
+                &:hover{
+                    opacity: .75;
+                }
+            
+            }
+        }
+    }
+    .card-options{
+        display: none;
+        @media(min-width:$lg){
+            display: flex;
+            align-items: center;
+        }
+        a{
+            &:hover{
+                opacity: .75;
+            }
+            @media(min-width: 1199px){
+                margin-left: 2rem;
+            }
+            margin-left: 1rem;
+            img{
+               
+                @media(min-width: $lg){
+                     min-width: 27px;
+                     min-width: auto;
+                }
+                max-width: 22px;
+                
+            }
+        }
+        .cart-image{
+            position: relative;
+            .cart-number{
+                right: -7px;
+                background-color: $red;
+                width: 13px;
+                height: 13px;
+                border-radius: 100px;
+                position: absolute;
+                font-size: 9px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+                top: -6px;
+            }
+        }
+    }
+
+  }    
+}   
+
+ 

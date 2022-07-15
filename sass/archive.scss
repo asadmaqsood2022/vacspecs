@@ -1,0 +1,45 @@
+
+@import '_variables.scss';
+@import 'bootstrap4/_functions.scss';
+@import 'bootstrap4/_mixins.scss';
+@import 'bootstrap4/_variables.scss';
+@import "bootstrap4/_card";
+
+.card {
+	
+	.img-wrap {
+		
+		height: 240px;
+		overflow: hidden;
+			
+		picture, img {
+			object-fit: cover;
+			object-position: center;
+			width: 100%;
+			height: 250px;
+			max-width: 100% !important;
+			transition:all 0.2s linear;
+		}
+		
+		
+		&:hover {
+			picture, img {
+				transform:scale(1.05,1.05);
+				transition:all 0.2s linear;
+			}
+		}
+		
+		
+	}
+	
+	
+	.card-title { margin-top:0; }
+	.posted-on {
+        margin-bottom:0.75em;
+        display:block;
+        i { font-size: 13px; }
+    }
+	
+    .card-footer .btn { margin-top:0; }
+	
+}
